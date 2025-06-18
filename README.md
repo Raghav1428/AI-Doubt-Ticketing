@@ -87,14 +87,17 @@ A modern ticket management system built with React, Node.js, and MongoDB, featur
 ## 🔧 Configuration
 
 ### Backend Environment Variables
-- `PORT`: Server port (default: 5000)
+- `PORT`: Server port (default: 3000)
 - `MONGODB_URI`: MongoDB connection string
 - `JWT_SECRET`: Secret key for JWT
-- `NODE_ENV`: Environment (development/production)
+- `MAILTRAP_SMTP_HOST`: Mailtrap SMTP host
+- `MAILTRAP_SMTP_PORT`: Mailtrap SMTP port
+- `MAILTRAP_SMTP_USER`: Mailtrap SMTP username
+- `MAILTRAP_SMTP_PASS`: Mailtrap SMTP password
+- `GEMINI_API_KEY`: Google Gemini API key
 
 ### Frontend Environment Variables
 - `VITE_API_URL`: Backend API URL
-- `VITE_APP_NAME`: Application name
 
 ## 📁 Project Structure
 
@@ -114,23 +117,6 @@ A modern ticket management system built with React, Node.js, and MongoDB, featur
     └── utils/
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 👥 Authors
 
-- Your Name - Initial work
-
-## 🙏 Acknowledgments
-
-- Thanks to all contributors who have helped shape this project
-- Special thanks to the open-source community for the amazing tools and libraries 
+- Raghav Seth
