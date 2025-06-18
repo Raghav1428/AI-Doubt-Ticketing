@@ -79,6 +79,10 @@ A modern ticket management system built with React, Node.js, and MongoDB, featur
    cd Backend
    npm run dev
 
+   # Start inngest
+   cd backend
+   npm run inngest-dev -u http://localhost:3000 (you can replace with you backend server url) 
+
    # Start frontend server
    cd Frontend
    npm run dev
