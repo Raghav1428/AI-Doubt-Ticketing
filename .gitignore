@@ -1,0 +1,24 @@
+# Ignore node modules in both frontend and backend
+Backend/node_modules/
+Frontend/node_modules/
+
+# Ignore environment files
+Backend/.env
+Frontend/.env
+
+# Ignore logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Vite build output
+Frontend/dist/
+
+# Optional: Ignore VSCode settings
+.vscode/
